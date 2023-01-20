@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="slyles.css">
+    <title>Mi Página Personal</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="media\perfil.jpeg" alt="Foto de mi">
+
+      <button onclick="changeBackgroundColor()">Cambiar color de fondo</button>
+
+      <form>
+        <label>Nombre:</label>
+        <p class="editable-field"> Randy Daniel</p>
+        <br>
+        <label>Apellido:</label>
+        <p class="editable-field">Baldayaque Tavares</p>
+        <br>
+        <label>Teléfono:</label>
+        <p class="editable-field">829-258-8164</p>
+        <br>
+        <label>Dirección:</label>
+        <p class="editable-field">Dajabon, Calle Beller #21</p>
+        <br>
+        <label>Correo Electrónico:</label>
+        <p class="editable-field">20209826@itla.edu.do</p>
+        <br>
+      </form>
+      <h3>Mis Hobbies:</h3>
+      <ul>
+        <li>Leer</li>
+        <li>Escribir</li>
+        <li>Hacer ejercicio</li>
+      </ul>
+      <h3>Mis Redes Sociales:</h3>
+      <ul>
+        <li><a href="https://instagram.com/r_baldayaque?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+        
+      </ul>
+      <h3>Comentarios:</h3>
+      <div id="comments"></div>
+      <form>
+        <textarea id="newComment" rows="4" cols="50"></textarea>
+        <br>
+        <button onclick="submitComment()">Enviar comentario</button>
+      </form>
+
+      <h3>Un video de mi agrado:</h3>
+      <iframe width="923" height="519" src="https://www.youtube.com/embed/O1FMmSL_tRE" title="Los Brazos de Papá | Living Room Session | Grupo Grace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </body>
+    
+  <script src="scripts.js"></script>
+</html>
